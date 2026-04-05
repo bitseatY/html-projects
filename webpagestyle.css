@@ -24,7 +24,7 @@
 
 }
 .logo{
-        color: rgb(240, 127, 22);
+        color: orangered;
         font-size: 35px;
         font-family:Arial;
         padding-left: 20px;
@@ -71,7 +71,7 @@ ul li a:hover{
      width:200px;
      height:40px;
     background:transparent;
-    border :1px solid rgb(255, 145, 0);
+    border :1px solid orangered;
     margin-top:13px;
     color:white;
     border-right:none;
@@ -85,8 +85,8 @@ ul li a:hover{
 .btn{
     width: 100px;
     height: 40px;
-    background: rgb(240, 110, 3);
-    border:2px solid rgb(255, 72, 0);
+    background:orangered;
+    border:2px solid orangered;
     margin-top:13px;
     font-size: 15px;
     color:white;
@@ -128,7 +128,7 @@ ul li a:hover{
 .content .cn{
   width:160px;
   height:40px;
-  background: rgb(240, 110, 3);
+  background:orangered;
   border:none;
   margin-bottom:10px;
   margin-left:20px;

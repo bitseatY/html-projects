@@ -7,14 +7,14 @@
 
 .home{
     width:100%;
-    height: 100%;
-    background-image: url("https://wallpapershome.com/images/pages/ico_h/26426.jpg");
+    min-height: 100vh;
+    background-image: url("https://4kwallpapers.com/images/wallpapers/vivo-pad-se-stock-2560x1440-23312.jpg");
     background-size:cover;
     background-position: center;
     
 }.navbar{
    width:100%;
-   background-color: rgba(0, 0, 0, 0.63);
+   background-color: rgba(0, 0, 0, 0.500);
    padding-left:280px;
 }
  
@@ -38,12 +38,12 @@
     padding:15px 25px;
 }
 .navbar .active{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.637);
 }
 
 .navbar ul li a:hover:not(.active){
 
-  background-color: rgba(0, 0, 0, 0.616);
+  background-color: rgba(0, 0, 0, 0.500);
   
 }
 
@@ -65,7 +65,7 @@
 }
 
 .intro{
-    background-color:rgba(0, 0, 0, 0.842) ;
+    background-color:rgba(0, 0, 0, 0.500) ;
     border-radius: 5%;
     width:650px;
 }
@@ -82,7 +82,7 @@
    line-height: 1.8;
 }
 .about{
-     background-color:rgba(0, 0, 0, 0.842) ;
+     background-color:rgba(0, 0, 0, 0.500) ;
     border-radius: 5%;
     width:900px;
     padding:30px;
@@ -108,26 +108,73 @@
    
     display: flex;
     flex-wrap: wrap;
-    background-color: rgba(0, 0, 0, 0.699);
-     gap:10px;
+    justify-content: space-between;
+    padding:25px;
+    gap:25px;
+   
+     
 }
 
 .skill{
   display: flex;
   flex-direction: column;
-  padding:20px;
+  background-color:rgba(0, 0, 0, 0.500) ;
+  padding:30px;
   width:600px;
-  margin:20px;
-  gap:5px;
+  gap: 5px;
+  border-radius: 10%;
 }
+
+
+
 .skill .img img{
-    width: 150px;
+    padding-left:50px;
+    width: 200px;
     height: 100px;
+   
 }
 .skill .desc{
    color:white;
    font-size: 20px;
    line-height: 1.5;
+   padding-left: 50px;
+   
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 30px;
+    width:500px;
+    height: 500px;
+    margin-left:350px;
+    margin-top:35px;
+   
 
 
 }
+.social{
+    display: flex;
+    gap:15px;
+    margin:5px;
+}
+
+.social .txt a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.555);
+    font-size: 30px;
+    font-family: Arial;
+    font-weight:700;
+}
+
+
+.social .img img{
+    width:35px;
+}
+
+.txt a:hover{
+    color:black;
+}
+
+
